@@ -191,7 +191,7 @@ jobs:
     runs-on: ${{ matrix.os-version }}
     strategy:
       matrix:
-        os-version: [macos-11]
+        os-version: [macos-12]
 
     steps:
       - name: Checkout code
